@@ -9,6 +9,9 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/renderer/*"]
+    },
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true

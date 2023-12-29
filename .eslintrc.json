@@ -25,6 +25,9 @@
   "settings": {
     "react": {
       "version": "detect" // Auto-detect React version
+    },
+    "import/resolver": {
+      "typescript": {} // This will make ESLint use the TypeScript config for module resolution
     }
   }
 }
