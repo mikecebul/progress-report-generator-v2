@@ -1,10 +1,14 @@
 import { app, BrowserWindow } from 'electron';
+import { updateElectronApp } from 'update-electron-app';
 import path from 'path';
+
+updateElectronApp(); // additional configuration options available
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
   app.quit();
 }
+
 
 const createWindow = () => {
   // Create the browser window.

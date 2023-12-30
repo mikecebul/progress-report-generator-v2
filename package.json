@@ -1,7 +1,7 @@
 {
   "name": "progress-report-generator-v2",
   "productName": "progress-report-generator-v2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Generate progress reports from Simple Practice client data.",
   "main": ".vite/build/main.js",
   "scripts": {
@@ -15,6 +15,10 @@
   "author": {
     "name": "mikecebul",
     "email": "mikecebul@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikecebul/progress-report-generator-v2.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -52,6 +56,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.2.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "update-electron-app": "^3.0.0"
   }
 }
