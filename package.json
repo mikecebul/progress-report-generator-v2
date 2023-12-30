@@ -1,7 +1,7 @@
 {
   "name": "progress-report-generator-v2",
   "productName": "progress-report-generator-v2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate progress reports from Simple Practice client data.",
   "main": ".vite/build/main.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "@electron-forge/maker-zip": "^7.2.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
     "@electron-forge/plugin-vite": "^7.2.0",
+    "@electron-forge/publisher-github": "^7.2.0",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
