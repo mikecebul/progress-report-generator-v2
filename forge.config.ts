@@ -46,6 +46,7 @@ const config: ForgeConfig = {
           name: "progress-report-generator-v2",
         },
         prerelease: true,
+        authToken: process.env.GITHUB_TOKEN,
       },
     },
   ],
